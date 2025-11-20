@@ -1,0 +1,6 @@
+import time
+
+while True:
+    now = time.strftime("%H:%M:%S")
+    print(now, end="\r")   # updates the same line
+    time.sleep(1)
